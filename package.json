@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "swagging": "swagging",
     "test": "node index.js; echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/victorsferreira/travis-experiment/issues"
   },
-  "homepage": "https://github.com/victorsferreira/travis-experiment#readme"
+  "homepage": "https://github.com/victorsferreira/travis-experiment#readme",
+  "devDependencies": {
+    "swagging": "0.0.6"
+  }
 }
